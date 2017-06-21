@@ -1,0 +1,649 @@
+The target system is: Linux - 1 - i386
+The host system is: Linux - 3.19.0-33-generic - i686
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/ccache i486-openwrt-linux-uclibc-g++
+Build flags: -Os;-pipe;-march=i486;-fno-caller-saves;-fhonour-copts;-Wno-error=unused-but-set-variable;-Wno-error=unused-result;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/3.4.3/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/ccache i486-openwrt-linux-uclibc-gcc
+Build flags: -Os;-pipe;-march=i486;-fno-caller-saves;-fhonour-copts;-Wno-error=unused-but-set-variable;-Wno-error=unused-result;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/3.4.3/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb79b/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bb79b.dir/build.make CMakeFiles/cmTC_bb79b.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb79b.dir/testCXXCompiler.cxx.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++    -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -o CMakeFiles/cmTC_bb79b.dir/testCXXCompiler.cxx.o -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_bb79b
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb79b.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++  -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_bb79b.dir/testCXXCompiler.cxx.o  -o cmTC_bb79b -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61cd8/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_61cd8.dir/build.make CMakeFiles/cmTC_61cd8.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61cd8.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++    -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -o CMakeFiles/cmTC_61cd8.dir/CMakeCXXCompilerABI.cpp.o -c /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_61cd8
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61cd8.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++  -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -v CMakeFiles/cmTC_61cd8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_61cd8 -rdynamic  
+Reading specs from /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/specs
+COLLECT_GCC=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/bin/i486-openwrt-linux-uclibc-g++
+COLLECT_LTO_WRAPPER=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/lto-wrapper
+Target: i486-openwrt-linux-uclibc
+Configured with: /home/arturo/Scaricati/openwrt-15.05-x86/build_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 r49389' --prefix=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2 --build=i686-linux-gnu --host=i686-linux-gnu --target=i486-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-gmp=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --with-mpfr=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --with-mpc=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --disable-decimal-float --disable-libssp --disable-__cxa_atexit --with-headers=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/include --disable-libsanitizer --enable-languages=c,c++,fortran --enable-shared --enable-threads --with-slibdir=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib
+Thread model: posix
+gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 r49389) 
+COMPILER_PATH=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/bin/
+LIBRARY_PATH=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-march=i486' '-fno-caller-saves' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib' '-v' '-o' 'cmTC_61cd8' '-rdynamic' '-shared-libgcc'
+ /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTC_61cd8 /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crt1.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crti.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtbegin.o -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib -L /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -rpath-link /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3 -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib CMakeFiles/cmTC_61cd8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lc -lgcc_s /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtend.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crtn.o
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_61cd8/fast"]
+  ignore line: [make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_61cd8.dir/build.make CMakeFiles/cmTC_61cd8.dir/build]
+  ignore line: [make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_61cd8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/ccache i486-openwrt-linux-uclibc-g++    -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -o CMakeFiles/cmTC_61cd8.dir/CMakeCXXCompilerABI.cpp.o -c /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_61cd8]
+  ignore line: [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61cd8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/ccache i486-openwrt-linux-uclibc-g++  -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -v CMakeFiles/cmTC_61cd8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_61cd8 -rdynamic  ]
+  ignore line: [Reading specs from /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/specs]
+  ignore line: [COLLECT_GCC=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/bin/i486-openwrt-linux-uclibc-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/lto-wrapper]
+  ignore line: [Target: i486-openwrt-linux-uclibc]
+  ignore line: [Configured with: /home/arturo/Scaricati/openwrt-15.05-x86/build_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 r49389' --prefix=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2 --build=i686-linux-gnu --host=i686-linux-gnu --target=i486-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-gmp=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --with-mpfr=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --with-mpc=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --disable-decimal-float --disable-libssp --disable-__cxa_atexit --with-headers=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/include --disable-libsanitizer --enable-languages=c,c++,fortran --enable-shared --enable-threads --with-slibdir=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 r49389) ]
+  ignore line: [COMPILER_PATH=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-march=i486' '-fno-caller-saves' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib' '-v' '-o' 'cmTC_61cd8' '-rdynamic' '-shared-libgcc']
+  link line: [ /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTC_61cd8 /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crt1.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crti.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtbegin.o -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib -L /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -rpath-link /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3 -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib CMakeFiles/cmTC_61cd8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lc -lgcc_s /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtend.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crtn.o]
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_61cd8] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crt1.o] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crti.o] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtbegin.o] ==> ignore
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> ignore
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib]
+    arg [CMakeFiles/cmTC_61cd8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtend.o] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc_s]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/i486-openwrt-linux-uclibc/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/i486-openwrt-linux-uclibc/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a025e/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a025e.dir/build.make CMakeFiles/cmTC_a025e.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a025e.dir/feature_tests.cxx.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++    -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -std=c++1y -o CMakeFiles/cmTC_a025e.dir/feature_tests.cxx.o -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a025e
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a025e.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++  -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_a025e.dir/feature_tests.cxx.o  -o cmTC_a025e -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_365b2/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_365b2.dir/build.make CMakeFiles/cmTC_365b2.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_365b2.dir/feature_tests.cxx.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++    -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -std=c++11 -o CMakeFiles/cmTC_365b2.dir/feature_tests.cxx.o -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_365b2
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_365b2.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++  -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_365b2.dir/feature_tests.cxx.o  -o cmTC_365b2 -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30571/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_30571.dir/build.make CMakeFiles/cmTC_30571.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30571.dir/feature_tests.cxx.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++    -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -std=c++98 -o CMakeFiles/cmTC_30571.dir/feature_tests.cxx.o -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_30571
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30571.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-g++  -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_30571.dir/feature_tests.cxx.o  -o cmTC_30571 -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f051c/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f051c.dir/build.make CMakeFiles/cmTC_f051c.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f051c.dir/testCCompiler.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -o CMakeFiles/cmTC_f051c.dir/testCCompiler.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f051c
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f051c.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_f051c.dir/testCCompiler.c.o  -o cmTC_f051c -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83246/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_83246.dir/build.make CMakeFiles/cmTC_83246.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83246.dir/CMakeCCompilerABI.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -o CMakeFiles/cmTC_83246.dir/CMakeCCompilerABI.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/share/cmake-3.4/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_83246
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83246.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -v CMakeFiles/cmTC_83246.dir/CMakeCCompilerABI.c.o  -o cmTC_83246 -rdynamic  
+Reading specs from /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/specs
+COLLECT_GCC=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/bin/i486-openwrt-linux-uclibc-gcc
+COLLECT_LTO_WRAPPER=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/lto-wrapper
+Target: i486-openwrt-linux-uclibc
+Configured with: /home/arturo/Scaricati/openwrt-15.05-x86/build_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 r49389' --prefix=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2 --build=i686-linux-gnu --host=i686-linux-gnu --target=i486-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-gmp=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --with-mpfr=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --with-mpc=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --disable-decimal-float --disable-libssp --disable-__cxa_atexit --with-headers=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/include --disable-libsanitizer --enable-languages=c,c++,fortran --enable-shared --enable-threads --with-slibdir=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib
+Thread model: posix
+gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 r49389) 
+COMPILER_PATH=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/bin/
+LIBRARY_PATH=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-march=i486' '-fno-caller-saves' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib' '-v' '-o' 'cmTC_83246' '-rdynamic'
+ /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTC_83246 /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crt1.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crti.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtbegin.o -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib -L /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -rpath-link /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3 -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib CMakeFiles/cmTC_83246.dir/CMakeCCompilerABI.c.o -lgcc_s -lc -lgcc_s /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtend.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crtn.o
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_83246/fast"]
+  ignore line: [make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_83246.dir/build.make CMakeFiles/cmTC_83246.dir/build]
+  ignore line: [make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_83246.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -o CMakeFiles/cmTC_83246.dir/CMakeCCompilerABI.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_83246]
+  ignore line: [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83246.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -v CMakeFiles/cmTC_83246.dir/CMakeCCompilerABI.c.o  -o cmTC_83246 -rdynamic  ]
+  ignore line: [Reading specs from /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/specs]
+  ignore line: [COLLECT_GCC=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/bin/i486-openwrt-linux-uclibc-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/lto-wrapper]
+  ignore line: [Target: i486-openwrt-linux-uclibc]
+  ignore line: [Configured with: /home/arturo/Scaricati/openwrt-15.05-x86/build_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 r49389' --prefix=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2 --build=i686-linux-gnu --host=i686-linux-gnu --target=i486-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-gmp=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --with-mpfr=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --with-mpc=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host --disable-decimal-float --disable-libssp --disable-__cxa_atexit --with-headers=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/include --disable-libsanitizer --enable-languages=c,c++,fortran --enable-shared --enable-threads --with-slibdir=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 r49389) ]
+  ignore line: [COMPILER_PATH=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/:/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-march=i486' '-fno-caller-saves' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib' '-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib' '-v' '-o' 'cmTC_83246' '-rdynamic']
+  link line: [ /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTC_83246 /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crt1.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crti.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtbegin.o -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib -L /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -rpath-link /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3 -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib CMakeFiles/cmTC_83246.dir/CMakeCCompilerABI.c.o -lgcc_s -lc -lgcc_s /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtend.o /home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crtn.o]
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/i486-openwrt-linux-uclibc/4.8.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_83246] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crt1.o] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crti.o] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtbegin.o] ==> ignore
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> ignore
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3]
+    arg [-L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib] ==> dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib]
+    arg [CMakeFiles/cmTC_83246.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/crtend.o] ==> ignore
+    arg [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc_s]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3]
+  collapse library dir [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3/../../../../i486-openwrt-linux-uclibc/lib] ==> [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/i486-openwrt-linux-uclibc/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/i486-openwrt-linux-uclibc/4.8.3;/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/i486-openwrt-linux-uclibc/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af02e/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_af02e.dir/build.make CMakeFiles/cmTC_af02e.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af02e.dir/feature_tests.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -std=c11 -o CMakeFiles/cmTC_af02e.dir/feature_tests.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_af02e
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af02e.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_af02e.dir/feature_tests.c.o  -o cmTC_af02e -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59704/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_59704.dir/build.make CMakeFiles/cmTC_59704.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59704.dir/feature_tests.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -std=c99 -o CMakeFiles/cmTC_59704.dir/feature_tests.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_59704
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59704.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_59704.dir/feature_tests.c.o  -o cmTC_59704 -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1946b/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1946b.dir/build.make CMakeFiles/cmTC_1946b.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1946b.dir/feature_tests.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -std=c90 -o CMakeFiles/cmTC_1946b.dir/feature_tests.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1946b
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1946b.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result      -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_1946b.dir/feature_tests.c.o  -o cmTC_1946b -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a08a/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1a08a.dir/build.make CMakeFiles/cmTC_1a08a.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a08a.dir/CheckIncludeFile.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_1a08a.dir/CheckIncludeFile.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a08a
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a08a.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_1a08a.dir/CheckIncludeFile.c.o  -o cmTC_1a08a -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab527/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ab527.dir/build.make CMakeFiles/cmTC_ab527.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab527.dir/CheckIncludeFile.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_ab527.dir/CheckIncludeFile.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ab527
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab527.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_ab527.dir/CheckIncludeFile.c.o  -o cmTC_ab527 -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2396b/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2396b.dir/build.make CMakeFiles/cmTC_2396b.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2396b.dir/CheckIncludeFile.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_2396b.dir/CheckIncludeFile.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2396b
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2396b.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_2396b.dir/CheckIncludeFile.c.o  -o cmTC_2396b -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c5d5/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9c5d5.dir/build.make CMakeFiles/cmTC_9c5d5.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c5d5.dir/CheckIncludeFile.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_9c5d5.dir/CheckIncludeFile.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9c5d5
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c5d5.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_9c5d5.dir/CheckIncludeFile.c.o  -o cmTC_9c5d5 -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31a58/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_31a58.dir/build.make CMakeFiles/cmTC_31a58.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31a58.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_31a58.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_31a58
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31a58.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_31a58.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_31a58 -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f3c1/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1f3c1.dir/build.make CMakeFiles/cmTC_1f3c1.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f3c1.dir/CheckIncludeFile.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_1f3c1.dir/CheckIncludeFile.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1f3c1
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f3c1.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_1f3c1.dir/CheckIncludeFile.c.o  -o cmTC_1f3c1 -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45f98/fast"
+make[3]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_45f98.dir/build.make CMakeFiles/cmTC_45f98.dir/build
+make[4]: Entering directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45f98.dir/CheckIncludeFile.c.o
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc   -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_45f98.dir/CheckIncludeFile.c.o   -c /home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_45f98
+/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45f98.dir/link.txt --verbose=1
+/usr/bin/ccache i486-openwrt-linux-uclibc-gcc -Os -pipe -march=i486 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/target-i386_i486_uClibc-0.9.33.2/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/home/arturo/Scaricati/openwrt-15.05-x86/staging_dir/toolchain-i386_i486_gcc-4.8-linaro_uClibc-0.9.33.2/lib   CMakeFiles/cmTC_45f98.dir/CheckIncludeFile.c.o  -o cmTC_45f98 -rdynamic 
+make[4]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/arturo/Scaricati/openwrt-15.05-x86/package/linino-x86/opencv3/opencv-3.1.0/CMakeFiles/CMakeTmp'
+
+
