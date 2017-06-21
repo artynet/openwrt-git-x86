@@ -1,0 +1,23 @@
+--- a/Makefile	2004-12-30 03:23:30.000000000 +0100
++++ b/Makefile	2016-03-15 17:38:03.239128423 +0100
+@@ -19,7 +19,7 @@
+ # You should leave -static in the CFLAGS so that your sysinfo can be
+ # compiled into the executable.
+ 
+-CC = gcc
++## CC = gcc
+ 
+ # generic options for gcc
+ CFLAGS = -s -static -Wall -O3
+@@ -123,8 +123,9 @@
+ 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS)\
+ 		-o pointer pointer.c
+ 	rm -f pointer.h
+-	if [ "4" = `./pointer` ] ; then touch pointer.h ;\
+-	else echo "#define LONG64" >pointer.h ; fi
++	# if [ "4" = `./pointer` ] ; then touch pointer.h ;\
++	# else echo "#define LONG64" >pointer.h ; fi
++	touch pointer.h
+ 
+ misc.o: misc.h misc.c Makefile
+ 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS)\
