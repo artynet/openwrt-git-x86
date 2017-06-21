@@ -81,7 +81,7 @@ prepare-tmpinfo: FORCE
 
 .config: ./scripts/config/conf $(if $(CONFIG_HAVE_DOT_CONFIG),,prepare-tmpinfo)
 	@+if [ \! -e .config ] || ! grep CONFIG_HAVE_DOT_CONFIG .config >/dev/null; then \
-		[ -e $(HOME)/.openwrt/defconfig ] && cp $(HOME)/.openwrt/defconfig .config; \
+		[ -e $(HOME)/.openwrt/defconfig-x86 ] && cp $(HOME)/.openwrt/defconfig-x86 .config; \
 		$(_SINGLE)$(NO_TRACE_MAKE) menuconfig $(PREP_MK); \
 	fi
 
@@ -101,7 +101,12 @@ config-clean: FORCE
 
 defconfig: scripts/config/conf prepare-tmpinfo FORCE
 	touch .config
-	@if [ -e $(HOME)/.openwrt/defconfig ]; then cp $(HOME)/.openwrt/defconfig .config; fi
+	@if [ -e $(HOME)/.openwrt/defconfig-x86 ]; then cp $(HOME)/.openwrt/defconfig-x86 .config; fi
+	$< --defconfig=.config Config.in
+
+deflinino: scripts/config/conf prepare-tmpinfo FORCE
+	touch .config
+	@if [ -e $(TOPDIR)/configfiles/lininoconfig ]; then cp $(TOPDIR)/configfiles/lininoconfig .config; fi
 	$< --defconfig=.config Config.in
 
 confdefault-y=allyes
