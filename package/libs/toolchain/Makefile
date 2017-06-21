@@ -79,6 +79,32 @@ define Package/libatomic/config
 	endmenu
 endef
 
+define Package/libquadmath
+$(call Package/gcc/Default)
+  TITLE:=Quadmath support library
+  DEPENDS+=@INSTALL_QUADMATH
+endef
+
+define Package/libquadmath/config
+	menu "Configuration"
+		depends on EXTERNAL_TOOLCHAIN && PACKAGE_libquadmath
+
+	config LIBQUADMATH_ROOT_DIR
+		string
+		prompt "libquadmath shared library base directory"
+		depends on EXTERNAL_TOOLCHAIN && PACKAGE_libquadmath
+		default TOOLCHAIN_ROOT  if !NATIVE_TOOLCHAIN
+		default "/"  if NATIVE_TOOLCHAIN
+
+	config LIBQUADMATH_FILE_SPEC
+		string
+		prompt "libquadmath shared library files (use wildcards)"
+		depends on EXTERNAL_TOOLCHAIN && PACKAGE_libquadmath
+		default "./lib/libquadmath.so.*"
+
+	endmenu
+endef
+
 define Package/libssp
 $(call Package/gcc/Default)
   DEPENDS+=@SSP_SUPPORT
@@ -410,6 +436,11 @@ ifeq ($(CONFIG_EXTERNAL_TOOLCHAIN),)
 	$(CP) $(TOOLCHAIN_DIR)/lib/libgfortran.so.* $(1)/usr/lib/
   endef
 
+  define Package/libquadmath/install
+	$(INSTALL_DIR) $(1)/usr/lib
+	$(CP) $(TOOLCHAIN_DIR)/lib/libquadmath.so.* $(1)/usr/lib/
+  endef
+
   define Package/libssp/install
 	$(INSTALL_DIR) $(1)/lib
 	$(CP) $(TOOLCHAIN_DIR)/lib/libssp.so.* $(1)/lib/
@@ -613,6 +644,15 @@ else
 	exit 0
   endef
 
+  define Package/libquadmath/install
+	for file in $(call qstrip,$(CONFIG_LIBQUADMATH_FILE_SPEC)); do \
+		dir=`dirname $$$$file` ; \
+		$(INSTALL_DIR) $(1)/$$$$dir ; \
+		$(CP) $(call qstrip,$(CONFIG_LIBQUADMATH_ROOT_DIR))/$$$$file $(1)/$$$$dir/ ; \
+	done ; \
+	exit 0
+  endef
+
   define Package/ldd/install
 	for file in $(call qstrip,$(CONFIG_LDD_FILE_SPEC)); do \
 		dir=`dirname $$$$file` ; \
@@ -642,5 +682,6 @@ $(eval $(call BuildPackage,libpthread))
 $(eval $(call BuildPackage,libthread-db))
 $(eval $(call BuildPackage,librt))
 $(eval $(call BuildPackage,libgfortran))
+$(eval $(call BuildPackage,libquadmath))
 $(eval $(call BuildPackage,ldd))
 $(eval $(call BuildPackage,ldconfig))
