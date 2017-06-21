@@ -64,3 +64,10 @@ config INSTALL_GFORTRAN
 	default n
 	help
 	    Build/install GNU fortran compiler ?
+
+config INSTALL_QUADMATH
+	bool
+	prompt "Build/install quadmath support?" if TOOLCHAINOPTS
+	default n
+	help
+	    Build/install quadmath support ?
