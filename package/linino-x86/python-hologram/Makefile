@@ -60,7 +60,7 @@ define Package/python-hologram/postinst
 if [ -z "$${IPKG_INSTROOT}" ]; then
         echo -e "\nRefreshing udev rules...\n"
         udevadm control --reload-rules
-		udevadm trigger
+        udevadm trigger
 fi
 exit 0
 endef
