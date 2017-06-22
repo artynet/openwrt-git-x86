@@ -100,7 +100,6 @@ CONFIGURE_ARGS= \
 	--without-snapshot \
 	--shared-zlib \
 	--shared-openssl \
-	--without-npm \
 	--prefix=/usr
 
 ifeq ($(CONFIG_NODEJS_ICU),y)
@@ -135,17 +134,13 @@ CONFIGURE_ARGS+= \
 endif
 endif
 
-#define Package/node/install
-#	mkdir -p $(1)/usr/bin $(1)/usr/lib/node_modules/npm/{bin,lib,node_modules}
-#	$(CP) $(PKG_INSTALL_DIR)/usr/bin/{node,npm} $(1)/usr/bin/
-#	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/npm/{package.json,LICENSE,cli.js} $(1)/usr/lib/node_modules/npm
-#	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/npm/bin/npm-cli.js $(1)/usr/lib/node_modules/npm/bin
-#	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/npm/lib/* $(1)/usr/lib/node_modules/npm/lib/
-#	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/npm/node_modules/* $(1)/usr/lib/node_modules/npm/node_modules/
-#endef
-
 define Package/node/install
 	$(INSTALL_DIR) $(1)/usr/bin
-	$(INSTALL_BIN) $(PKG_INSTALL_DIR)/usr/bin/node $(1)/usr/bin
+	$(INSTALL_BIN) $(PKG_INSTALL_DIR)/usr/bin/node $(1)/usr/bin/
+
+	$(INSTALL_DIR) $(1)/usr/lib/node_modules
+	$(CP) -R $(PKG_INSTALL_DIR)/usr/lib/node_modules/* $(1)/usr/lib/node_modules/
+	$(LN) ../lib/node_modules/npm/bin/npm-cli.js $(1)/usr/bin/npm
 endef
+
 $(eval $(call BuildPackage,node))
