@@ -132,12 +132,28 @@ define Host/Install
 endef
 
 define Package/node7/install
-	mkdir -p $(1)/usr/bin $(1)/usr/lib/node_modules/npm/{bin,lib,node_modules}
-	$(CP) $(PKG_INSTALL_DIR)/usr/bin/{node,npm} $(1)/usr/bin/
-	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/npm/{package.json,LICENSE,cli.js} $(1)/usr/lib/node_modules/npm
-	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/npm/bin/npm-cli.js $(1)/usr/lib/node_modules/npm/bin
-	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/npm/lib/* $(1)/usr/lib/node_modules/npm/lib/
-	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/npm/node_modules/* $(1)/usr/lib/node_modules/npm/node_modules/
+	$(INSTALL_DIR) $(1)/usr/bin
+	$(INSTALL_BIN) $(PKG_INSTALL_DIR)/usr/bin/node $(1)/usr/bin/
+
+	$(INSTALL_DIR) $(1)/usr/lib/node_modules
+	$(CP) -R $(PKG_INSTALL_DIR)/usr/lib/node_modules/* $(1)/usr/lib/node_modules/
+	$(LN) ../lib/node_modules/npm/bin/npm-cli.js $(1)/usr/bin/npm
+endef
+
+define Package/node7/postrm
+#!/bin/sh
+# check if we are on real system
+if `grep -qs '/opt' /proc/mounts`
+then
+	PREFIX="/opt/usr"
+else
+	PREFIX="/usr"
+fi
+
+# completely uninstall npm
+rm -rf $$PREFIX/usr/lib/node_modules/npm
+
+exit 0
 endef
 
 $(eval $(call HostBuild))
