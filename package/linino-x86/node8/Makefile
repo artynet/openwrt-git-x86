@@ -143,5 +143,21 @@ define Package/node8/install
 	$(LN) ../lib/node_modules/npm/bin/npm-cli.js $(1)/usr/bin/npm
 endef
 
+define Package/node8/postrm
+#!/bin/sh
+# check if we are on real system
+if `grep -qs '/opt' /proc/mounts`
+then
+	PREFIX="/opt/usr"
+else
+	PREFIX="/usr"
+fi
+
+# completely uninstall npm
+rm -rf $$PREFIX/usr/lib/node_modules/npm
+
+exit 0
+endef
+
 $(eval $(call HostBuild))
 $(eval $(call BuildPackage,node8))
