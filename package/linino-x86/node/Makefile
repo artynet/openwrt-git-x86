@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=node
 PKG_VERSION:=v6.11.0
-PKG_RELEASE:=1
+PKG_RELEASE:=3
 
 PKG_SOURCE:=node-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=http://nodejs.org/dist/${PKG_VERSION}
@@ -141,6 +141,22 @@ define Package/node/install
 	$(INSTALL_DIR) $(1)/usr/lib/node_modules
 	$(CP) -R $(PKG_INSTALL_DIR)/usr/lib/node_modules/* $(1)/usr/lib/node_modules/
 	$(LN) ../lib/node_modules/npm/bin/npm-cli.js $(1)/usr/bin/npm
+endef
+
+define Package/node/postrm
+#!/bin/sh
+# check if we are on real system
+if `grep -qs '/opt' /proc/mounts`
+then
+	PREFIX="/opt/usr"
+else
+	PREFIX="/usr"
+fi
+
+# completely uninstall npm
+rm -rf $$PREFIX/usr/lib/node_modules/npm
+
+exit 0
 endef
 
 $(eval $(call BuildPackage,node))
