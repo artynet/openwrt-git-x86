@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=node8
-PKG_VERSION:=v8.1.2
+PKG_VERSION:=v8.1.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=node-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=http://nodejs.org/dist/$(PKG_VERSION)
-PKG_MD5SUM:=d9573f9ce6b4c3d7e3ac174027ccbdd0
+PKG_MD5SUM:=b764a96d2b4e76709339c8c55f3d8951
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/node-$(PKG_VERSION)
 HOST_BUILD_DIR:=$(BUILD_DIR_HOST)/node-$(PKG_VERSION)
@@ -62,9 +62,6 @@ NODEJS_CPU:=$(subst powerpc,ppc,$(subst aarch64,arm64,$(subst x86_64,x64,$(subst
 
 MAKE_VARS+= \
 	DESTCPU=$(NODEJS_CPU)
-
-HOST_CONFIGURE_ARGS:= \
-	--with-intl=none
 
 CONFIGURE_ARGS:= \
 	--dest-cpu=$(NODEJS_CPU) \
@@ -118,7 +115,8 @@ HOST_CONFIGURE_ARGS:= \
 	--dest-os=linux \
 	--without-snapshot \
 	--shared-zlib \
-	--prefix=$(HOST_BUILD_PREFIX)
+	--with-intl=none \
+	--prefix=$(STAGING_DIR_HOST)
 
 HOST_CONFIGURE_CMD:=python ./configure
 
