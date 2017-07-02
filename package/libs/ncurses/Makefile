@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ncurses
-PKG_VERSION:=5.9
+PKG_VERSION:=6.0
 PKG_RELEASE:=2
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(BUILD_VARIANT)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=@GNU/ncurses
-PKG_MD5SUM:=8cb9c412e5f2d96bc6f459aa8c6282a1
+# PKG_MD5SUM:=8cb9c412e5f2d96bc6f459aa8c6282a1
 
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=README
@@ -144,10 +144,10 @@ define Build/InstallDev
 	$(CP) $(PKG_INSTALL_DIR)/usr/lib/lib{ncurses,panel,menu,form}w.{a,so*} $(1)/usr/lib/
 
 	$(INSTALL_DIR) $(1)/usr/bin $(2)/bin
-	$(CP) $(PKG_INSTALL_DIR)/usr/bin/ncursesw5-config $(2)/bin/
+	$(CP) $(PKG_INSTALL_DIR)/usr/bin/ncursesw6-config $(2)/bin/
 	$(SED) 's,^\(prefix\|exec_prefix\)=.*,\1=$(STAGING_DIR)/usr,g' -e 's/$$$$INCS //g' \
-		$(2)/bin/ncursesw5-config
-	ln -sf $(STAGING_DIR)/host/bin/ncursesw5-config $(1)/usr/bin/ncursesw5-config
+		$(2)/bin/ncursesw6-config
+	ln -sf $(STAGING_DIR)/host/bin/ncursesw6-config $(1)/usr/bin/ncursesw6-config
 endef
 else
 define Build/InstallDev
@@ -158,10 +158,10 @@ define Build/InstallDev
 	$(CP) $(PKG_INSTALL_DIR)/usr/lib/lib{curses,ncurses,panel,menu,form}.{a,so*} $(1)/usr/lib/
 
 	$(INSTALL_DIR) $(1)/usr/bin $(2)/bin
-	$(CP) $(PKG_INSTALL_DIR)/usr/bin/ncurses5-config $(2)/bin/
+	$(CP) $(PKG_INSTALL_DIR)/usr/bin/ncurses6-config $(2)/bin/
 	$(SED) 's,^\(prefix\|exec_prefix\)=.*,\1=$(STAGING_DIR)/usr,g' \
-		$(2)/bin/ncurses5-config
-	ln -sf $(STAGING_DIR)/host/bin/ncurses5-config $(1)/usr/bin/ncurses5-config
+		$(2)/bin/ncurses6-config
+	ln -sf $(STAGING_DIR)/host/bin/ncurses6-config $(1)/usr/bin/ncurses6-config
 endef
 endif
 
