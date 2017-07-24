@@ -11,7 +11,7 @@ index 81ead08..f6cf3d9 100644
      logstream: process.stderr,
      long: false,
      maxsockets: 50,
-@@ -201,7 +201,7 @@ Object.defineProperty(exports, 'defaults', {get: function () {
+@@ -203,7 +203,7 @@ Object.defineProperty(exports, 'defaults', {get: function () {
      shell: osenv.shell(),
      shrinkwrap: true,
      'sign-git-tag': false,
