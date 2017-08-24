@@ -10,7 +10,7 @@ index 87c0a73d19..7064e5de87 100644
 +#if V8_LIBC_GLIBC || V8_LIBC_BSD || V8_OS_SOLARIS
  #define HAVE_EXECINFO_H 1
  #endif
- 
+
 diff --git a/deps/v8/src/compiler/node-matchers.h b/deps/v8/src/compiler/node-matchers.h
 index d2bdb8bff5..a7dcce3b66 100644
 --- a/deps/v8/src/compiler/node-matchers.h
