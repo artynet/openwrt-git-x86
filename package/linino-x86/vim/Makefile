@@ -8,17 +8,18 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=vim
-PKG_VERSION:=8.0.0563
+PKG_VERSION:=8.0.1075
 PKG_RELEASE:=4
 VIMVER:=80
 
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_URL:=https://github.com/vim/vim.git
+PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
+PKG_SOURCE_VERSION=v$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=ftp://ftp.vim.org/pub/vim/unix/
-# PKG_MD5SUM:=457543a7754b0d3c1c0aa4d4c3bb4070
-PKG_MAINTAINER:=Marko Ratkaj <marko.ratkaj@sartura.hr>
 
-# PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)$(VIMVER)
-PKG_BUILD_PARALLEL:=1
+PKG_MAINTAINER:=Marko Ratkaj <marko.ratkaj@sartura.hr>
+PKG_LICENSE:=GPL-2.0
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -120,7 +121,7 @@ CONFIGURE_VARS += \
 	vim_cv_getcwd_broken=no \
 	vim_cv_memmove_handles_overlap=yes \
 	vim_cv_stat_ignores_slash=yes \
-	vim_cv_tgetent=zero \
+	vim_cv_tgent=zero \
 	vim_cv_terminfo=yes \
 	vim_cv_toupper_broken=no \
 	vim_cv_tty_group=root \
