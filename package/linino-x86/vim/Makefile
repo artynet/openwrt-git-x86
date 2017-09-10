@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=vim
-PKG_VERSION:=8.0.1075
+PKG_VERSION:=8.0.1090
 PKG_RELEASE:=4
 VIMVER:=80
 
