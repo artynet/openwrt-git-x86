@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=udev
 PKG_VERSION:=173
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:=@KERNEL/linux/utils/kernel/hotplug/
@@ -107,8 +107,8 @@ define Build/InstallDev
 	$(CP) $(PKG_INSTALL_DIR)/usr/include/libudev.h $(1)/usr/include
 	$(INSTALL_DIR) $(1)/usr/share/pkgconfig
 	$(CP) $(PKG_INSTALL_DIR)/usr/share/pkgconfig/udev.pc $(1)/usr/share/pkgconfig
-	$(INSTALL_DIR) $(1)/lib
-	$(CP) $(PKG_INSTALL_DIR)/lib/libudev.so* $(1)/lib
+	$(INSTALL_DIR) $(1)/lib $(1)/usr/lib
+	$(CP) $(PKG_INSTALL_DIR)/lib/libudev.so* $(1)/lib $(1)/usr/lib
 	$(INSTALL_DIR) $(1)/usr/lib/pkgconfig
 	$(CP) $(PKG_INSTALL_DIR)/lib/pkgconfig/libudev.pc $(1)/usr/lib/pkgconfig
 endef
