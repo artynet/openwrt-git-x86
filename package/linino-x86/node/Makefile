@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=node
-PKG_VERSION:=v6.11.1
-PKG_RELEASE:=3
+PKG_VERSION:=v8.9.4
+PKG_RELEASE:=4
 
 PKG_SOURCE:=node-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=http://nodejs.org/dist/${PKG_VERSION}
-PKG_MD5SUM:=90d27f96c64025bff7b5b3b59d674fe9
+PKG_MD5SUM:=631ed102fe58c13cf63bc92a68cf4759
 
 PKG_BUILD_DEPENDS:=python/host
 PKG_INSTALL:=1
@@ -59,10 +59,10 @@ CPUHOST:=$(subst x86_64-linux-gnu,x64,$(subst i686-linux-gnu,x86,$(GNU_HOST_NAME
 NODEJS:=node-$(PKG_VERSION)-linux-$(CPUHOST).tar.xz
 
 ifeq ($(CPUHOST),x64)
-    MD5SUM_NODE:=6a346da55e44d07e2d218587e02c78b9
+    MD5SUM_NODE:=ac0f80d58f0149a2895942841c9e176a
 endif
 ifeq ($(CPUHOST),x86)
-    MD5SUM_NODE:=eb5d98421db0abdbfad72601a6a1ac08
+    MD5SUM_NODE:=e8fd3023d5bdee0bad45e427bc807e58
 endif
 
 # Distribution URL doesn't always have the correct version
